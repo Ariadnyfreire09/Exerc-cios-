@@ -1,0 +1,65 @@
+#5#
+print("CONVERTER METROS PARA CENTÍMETROS")
+a = float(input("insira quantos metros "))
+
+b = a * 100
+print(a, "metros são", b, "em cm.")
+
+
+#10#
+print("CONVERTER GRAUS FAHRENHEIT EM GRAUS CELSIUS")
+f = float(input("insira quantos graus fahrenheit "))
+
+c = (5 * (f-32) / 9)
+print(f, "em graus fahrenheit, são", c,"em graus celsius")
+
+
+#9#
+print("CONVERTER GRAUS CELSIUS EM GRAUS FAHRENHEIT")
+C = float(input("insira quantos graus celsius "))
+
+F = (9 * (C + 32) / 5) 
+print(C, "em graus Celsius, são", F, "em farehnheit")
+
+
+#23#
+print("NOTA DO ALUNO")
+a = int(input("Insira a primeira nota parcial do aluno: "))
+b = int(input("Insira a segunda nota: "))
+
+s = (a + b)/ 2 
+if s == 10:
+  print("Aprovado com distinção")
+elif s >= 7:
+  print("Aprovado")
+else:
+  print("Reprovado")
+
+
+#24#
+print("O NÚMERO MAIOR DENTRE ESSES TRÊS")
+a = int(input("insira o primeiro número: "))
+b = int(input("insira o segundo número: "))
+c = int(input("insira o terceiro número: "))
+
+if a < b and a < c:
+  print(a, "é maior")
+elif a < b and a > c:
+  print(c, "é maior")
+elif a > b
+
+
+#54#
+x = 1
+while x < 50:
+  print(x)
+  x = x + 2
+
+
+#74#
+print("TABELA DO PREÇO DE PÃES")
+
+Q = 1
+while Q <= 50:
+  print(Q, " - ", 0.18 * Q)
+  Q = Q + 1
